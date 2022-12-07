@@ -19,7 +19,7 @@ const Ordenes = ()=>{
     const [update, setUpdate] = useState(false)
     useEffect(()=>{
         const userId = localStorage.getItem('user_id')
-        axios.get('https://redux.up.railway.app/ordenes?userId=' + userId)
+        axios.get(`https://redux.up.railway.app/ordenes?userId=${userId}`)
         .then(response =>{
             console.log(response.data)
             // const fecha = response.data.fecha

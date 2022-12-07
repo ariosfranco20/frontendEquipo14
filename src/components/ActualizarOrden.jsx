@@ -13,7 +13,7 @@ const ActualizarOrden = ()=>{
 
     useEffect(()=>{
       axios
-      .get("https://redux.up.railway.app/ordenes/" + id)
+      .get(`https://redux.up.railway.app/ordenes/${id}`)
       .then(response => {
           console.log(response.data)
           const fecha = response.data.fecha

@@ -24,7 +24,7 @@ const OrdenesForm = ({datos, ordenId})=>{
         userId : localStorage.getItem('user_id')
     } 
       if(isEdit){
-        axios.put('https://redux.up.railway.app/ordenes/actualizar/' + ordenId, ordenObject )
+        axios.put(`https://redux.up.railway.app/ordenes/actualizar/${ordenId}`, ordenObject )
           .then(response =>{
             console.log(response.data)
             alert('Se actualizo la orden exitosamente!')
