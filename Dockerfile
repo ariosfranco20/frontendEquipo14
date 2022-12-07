@@ -1,6 +1,6 @@
 FROM node:lts-alpine
 # Set the working directory to /app inside the container
-WORKDIR /Frontend-proyecto-equipo14
+WORKDIR /app
 # Copy app files
 COPY . .
 # ==== BUILD =====
