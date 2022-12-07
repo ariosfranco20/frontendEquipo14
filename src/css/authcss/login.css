@@ -1,0 +1,18 @@
+#contenedor-principal{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+#logo-empresa{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    
+}
+
+#formulario-registro{
+    padding: 50px 75px 20px 75px;
+}
